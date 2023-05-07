@@ -44,14 +44,14 @@
                             {% if request.path == '/doctores/' %}
                                 id="marcado"
                             {% endif %} 
-                            class="nav-link" href="{% url 'doctores' %}">Doctores</a>
+                            class="nav-link" href="{% url 'lista_doctores' %}">Doctores</a>
                         </li>
                         <li class="nav-item">
                             <a 
                             {% if request.path == '/consultorios/' %}
                                 id="marcado"
                             {% endif %} 
-                            class="nav-link" href="{% url 'consultorios' %}">Consultorio</a>
+                            class="nav-link" href="{% url 'lista_consultorios' %}">Consultorio</a>
                         </li>   
                     </ul>
                 </div>
